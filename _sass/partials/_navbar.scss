@@ -22,6 +22,17 @@ Navbar
     //Brand
     .navbar-brand {
         min-height: 4rem;
+        .logo {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.5rem;
+            .logo-icon {
+                margin-right: 10px;
+                color: $secondary;
+            }
+            .logo-title {
+                color: black;
+            }
+        }
         img {
             max-height: 36px !important;
             height: 36px;
