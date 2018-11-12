@@ -85,13 +85,13 @@ img.pushed-image {
 }
 
 //Benefits
-.benefits {
+#benefits {
     figure {
         width: 50px;
         font-size: 2rem;
         text-align: center;
     }
     article {
-        height: 100px;
+        min-height: 100px;
     }
 }
